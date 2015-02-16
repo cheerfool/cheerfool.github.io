@@ -1,0 +1,190 @@
+body{
+	font-family: Georgia;
+	color: black;
+	background: #cdd4dc;
+}
+
+a{
+	text-decoration: none;
+	color: #429dd1;
+}
+
+a.mail{
+	color: black;
+}
+
+a.mail:hover{
+	color: black;
+}
+
+a:hover{
+	color: #3065B9;
+	/*color: #2A6FAF;*/
+	border-bottom: 1px #0099CC dotted;
+}
+
+#main{
+	background: white;
+	width: 750px;
+	margin: 15px auto;
+	padding: 30px 40px;
+	border-radius: 15px;
+	box-shadow: 0 0 10px black;
+}
+
+header table{
+	width: 100%;
+}
+
+header a{
+	color: black;
+}
+
+header a:hover{
+	color: black;
+}
+
+header li a{
+	color: blue;
+}
+
+header li a:hover{
+	color: black;
+	border-bottom: 1px #0099CC dotted;
+}
+
+.selected{
+	font-weight: bold;
+}
+
+header #name{
+	float: left;
+	font-size: 45px;
+	/*text-align: left;*/
+}
+
+header #contact-info{
+	text-align: right;
+	font-size: 14px;
+}
+
+header nav ul{
+	list-style: none;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	padding: 5px 0;
+	line-height: 1.2em;
+}
+
+header nav ul li{
+	display: inline;
+	margin: 0 10px;
+}
+
+#intro{
+	line-height: 20px;
+}
+
+#intro img{
+	float: right;
+	border-radius: 10px;
+	margin: 0 10px;
+}
+
+#intro #interest{
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+hr{
+	margin: 1em 0;
+}
+
+.box .box-title{
+	font-weight: bold;
+	font-size: 20px;
+	margin: -5px 0 5px 0;
+	color: #527bbd;
+/*	color: rgb(36, 141, 108);*/
+}
+
+.box .box-title a{
+	color: #527bbd;
+}
+
+.box .item-title{
+	font-weight: bold;
+}
+
+.box .item-subtitle{
+	font-style: italic;
+}
+
+span.place, span.date{
+	float: right;
+	font-style: normal;
+	font-weight: normal;
+}
+
+span.teacher{
+	font-style: normal;
+}
+
+.box ul{
+	margin: 0.5em;
+	padding-left: 20px;
+}
+
+.item{
+	margin-bottom: 20px;
+}
+
+.cv{
+	font-weight: 600;
+}
+
+#about .prof{
+	font-style: italic;
+}
+
+#navigator{
+	background: white;
+	top: 140px;
+	width: 130px;
+	margin-left: -200px;
+	padding: 0.3em 0;
+	box-shadow: 0 0 10px black;
+	text-align: center;
+	vertical-align: middle;
+	position: fixed;
+	border-radius: 10px;
+}
+
+#navigator .name{
+	font-weight: bold;
+}
+
+#navigator hr{
+	margin: 0.3em auto;
+}
+
+#navigator .link{
+	font-weight: bold;
+}
+
+a#goto-top{
+	color: gray;
+}
+
+a#goto-top:hover{
+	color: black;
+}
+
+#news .box-title{
+	color: red;
+}
+
+.news-date{
+	font-style: italic;
+}
