@@ -92,7 +92,7 @@ header nav ul li{
 }
 
 #intro #interest{
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: bold;
 	margin-bottom: 0px;
 }
@@ -117,7 +117,7 @@ hr{
 	font-weight: bold;
 }
 
-.box .item-subtitle{
+.box .item-subtitle .job-position{
 	font-style: italic;
 }
 
